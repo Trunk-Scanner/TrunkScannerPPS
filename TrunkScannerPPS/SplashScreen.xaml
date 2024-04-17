@@ -1,0 +1,12 @@
+﻿<Window x:Class="TrunkScannerPPS.SplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SplashScreen" Height="363" Width="541"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" Background="DarkGray">
+    <Grid Margin="0,0,42,0">
+        <Image Source="Resources\splashimage.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="465" Width="576" Margin="-25,0,0,0"/>
+        <TextBlock Text="R01.00.00" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Center" Margin="424,44,0,0" FontSize="14" Background="Black" Foreground="White" Width="66" Height="19"/>
+        <TextBlock Text="TrunkScaner Pager Programming Software" VerticalAlignment="Top" TextAlignment="Center" HorizontalAlignment="Left" Margin="128,324,0,0" FontSize="14" Background="Black" Foreground="White" Width="270" Height="19"/>
+    </Grid>
+</Window>
